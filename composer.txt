@@ -7,7 +7,7 @@ composer update                       mais ajour les dependance de puis le depot
                                       do two things resolve and run install 									  
 composer remove  vendor/pakagename
 composer validate
-
+composer dump-autoload     : This command will re-generate the vendor/autoload.php 
 
 composer 
 composer -V
