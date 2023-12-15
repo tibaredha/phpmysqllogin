@@ -1,5 +1,6 @@
 <?php 
-  session_start(); 
+  session_start();
+  require_once __DIR__ ."./vendor/autoload.php";   
   include "config.php";
 ?>
 <html>
@@ -16,11 +17,11 @@
         </tr>
         <tr>
           <td><label>User Name</label></td>
-          <td><input type='text' name='user_name' class='input'    value="username" required></td>
+          <td><input type='text' name='user_name' class='input'     required></td>
         </tr>
         <tr>
           <td><label>Password</label></td>
-          <td><input type='password' name='user_pass' class='input' value="password"required></td>
+          <td><input type='password' name='user_pass' class='input' required></td>
         </tr>
         <tr>
           <td></td>

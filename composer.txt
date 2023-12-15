@@ -11,7 +11,7 @@ composer remove  vendor/pakagename
 
 
 composer init 
-
+--------------------------
 package name         :  tibaredha/packagename +++
 decription           :  lurempsun
 author               :  tibaredha
@@ -20,5 +20,10 @@ pacckage type        :  library project metapackage composer-pluging
 licence              :  MIT 
 depndency            :  no
 dev dependency       :  no
-add psr-4            :  yes/no ????
+add psr-4            :  yes  #PSR-4 autoloading configured. Use "namespace Tibaredha\Packagename;" in src/
 do confirme          :  yes  
+--------------------------
+Generating autoload files
+Generated autoload files
+PSR-4 autoloading configured. Use "namespace Tibaredha\Packagename;" in src/
+Include the Composer autoloader with: require 'vendor/autoload.php';
