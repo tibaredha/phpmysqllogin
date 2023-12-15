@@ -14,7 +14,7 @@
             "email": "tibaredha@yahoo.fr"
         }
     ],
-    "minimum-stability": "stable",
+    "minimum-stability": "dev",
 	"version": "1.0.0",
     "require": {
         "symfony/var-dumper": "^3.4"
