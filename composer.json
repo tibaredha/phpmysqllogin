@@ -1,0 +1,15 @@
+{
+    "name": "tibaredha/package",
+    "autoload": {
+        "psr-4": {
+            "Tibaredha\\Package\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "tibaredha",
+            "email": "tibaredha@yahoo.fr"
+        }
+    ],
+    "require": {}
+}
