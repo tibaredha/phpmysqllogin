@@ -5,3 +5,20 @@ composer install                      install les dependance en se basant sur   
 composer update                       mais ajour les dependance de puis le depot centrale #vendor
                                       utiliser  si on a un nouvelle version d'une dependance elle sera remplacer par la nouvelle version  
 composer remove  vendor/pakagename
+
+
+
+
+
+composer init 
+
+package name         :  tibaredha/packagename +++
+decription           :  lurempsun
+author               :  tibaredha
+minimum statbility   :  dev /alpha/ beta/  RC:release condidate / stable 
+pacckage type        :  library project metapackage composer-pluging 
+licence              :  MIT 
+depndency            :  no
+dev dependency       :  no
+add psr-4            :  yes/no ????
+do confirme          :  yes  

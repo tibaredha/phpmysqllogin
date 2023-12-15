@@ -1,8 +1,11 @@
 {
-    "name": "tibaredha/package",
+    "name": "tibaredha/packagename",
+    "description": "package exemple avec composer",
+    "type": "project",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Tibaredha\\Package\\": "src/"
+            "Tibaredha\\Packagename\\": "src/"
         }
     },
     "authors": [
@@ -11,5 +14,6 @@
             "email": "tibaredha@yahoo.fr"
         }
     ],
+    "minimum-stability": "stable",
     "require": {}
 }
