@@ -2,6 +2,22 @@
   session_start();
   require_once __DIR__ ."./vendor/autoload.php";   
   include "config.php";
+  
+  $data= [ 
+	"a"=>"tiba",
+	"b"=>"redha",
+	"c"=>"030570"
+  ];
+  
+  //1 modele  
+  var_dump($data);echo "<br/>";
+  //2 modele
+  print_r($data);echo "<br/>";
+  //3 modele 
+  use Symfony\Component\VarDumper\VarDumper; // namespace + classe name 
+  //VarDumper::dump($data);echo "<br/>";
+  dump($data);echo "<br/>";
+  
 ?>
 <html>
   <head>

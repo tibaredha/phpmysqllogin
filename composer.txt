@@ -5,7 +5,7 @@ composer install                      install les dependance en se basant sur   
 composer update                       mais ajour les dependance de puis le depot centrale #vendor
                                       utiliser  si on a un nouvelle version d'une dependance elle sera remplacer par la nouvelle version  
 composer remove  vendor/pakagename
-
+composer validate
 
 
 
@@ -27,3 +27,9 @@ Generating autoload files
 Generated autoload files
 PSR-4 autoloading configured. Use "namespace Tibaredha\Packagename;" in src/
 Include the Composer autoloader with: require 'vendor/autoload.php';
+--------------------------
+
+
+go to the https://packagist.org/
+sign in with tibaredha:030570
+profil siting connect to github
