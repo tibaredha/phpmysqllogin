@@ -1,4 +1,7 @@
 composer init                         create                                              #composer.json +composer.lock +folder nendor+autoloader.php 
 composer require vendor/pakagename    ajoute library to                                   #composer.json 
 composer install                      install les dependance en se basant sur             #composer.lock
+                                      utiliser par un autre developeur pour recuperer le dossier vendor qui quantient les dependances 
 composer update                       mais ajour les dependance de puis le depot centrale #vendor
+                                      utiliser  si on a un nouvelle version d'une dependance elle sera remplacer par la nouvelle version  
+composer remove  vendor/pakagename
