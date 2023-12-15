@@ -3,13 +3,14 @@ composer require vendor/pakagename    ajoute library to                         
 composer install                      install les dependance en se basant sur             #composer.lock
                                       utiliser par un autre developeur pour recuperer le dossier vendor qui quantient les dependances 
 composer update                       mais ajour les dependance de puis le depot centrale #vendor
-                                      utiliser  si on a un nouvelle version d'une dependance elle sera remplacer par la nouvelle version  
+                                      utiliser  si on a un nouvelle version d'une dependance elle sera remplacer par la nouvelle version
+                                      do two things resolve and run install 									  
 composer remove  vendor/pakagename
 composer validate
 
 
-
-
+composer 
+composer -V
 composer init 
 --------------------------
 package name         :  tibaredha/packagename +++
@@ -29,7 +30,11 @@ PSR-4 autoloading configured. Use "namespace Tibaredha\Packagename;" in src/
 Include the Composer autoloader with: require 'vendor/autoload.php';
 --------------------------
 
-
+# to publish the code to packagiste :is the main Composer repository
 go to the https://packagist.org/
 sign in with tibaredha:030570
 profil siting connect to github
+go to the submit butun 
+get the url from github of my project and chek it  first
+continue and 
+done
