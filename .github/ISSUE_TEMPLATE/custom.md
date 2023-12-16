@@ -8,3 +8,4 @@ assignees: tibaredha
 ---
 
 issue template  exemple
+🇩🇿
